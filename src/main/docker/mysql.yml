@@ -9,6 +9,10 @@ services:
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_DATABASE=quiz
+      # - MYSQL_ROOT_PASSWORD=rootpwd
+      # - MYSQL_DATABASE=quiz
+      # - MYSQL_USER=user
+      # - MYSQL_PASSWORD=pwd
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:
